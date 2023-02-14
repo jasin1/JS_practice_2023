@@ -10,5 +10,5 @@ const stepsIndi = document.getElementById("steps-wrapper");
 const prevBtn = document.querySelector("step-btn-prev");
 const nxtBtn = document.querySelector("step-btn-next");
 
-mainSteps[0].classList.add("active");
+mainSteps[0].classList.remove("hidden");
 
