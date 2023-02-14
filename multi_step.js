@@ -11,4 +11,5 @@ const prevBtn = document.querySelector("step-btn-prev");
 const nxtBtn = document.querySelector("step-btn-next");
 
 mainSteps[0].classList.remove("hidden");
+prevBtn.innerHTML = "vorige stap";
 
